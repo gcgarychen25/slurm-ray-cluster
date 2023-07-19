@@ -1,0 +1,63 @@
+Lmod has detected the following error: Warning: Python module not loaded, you
+already have Python loaded via conda init. 
+While processing the following module(s):
+    Module fullname              Module Filename
+    ---------------              ---------------
+    python/3.9-anaconda-2021.11  /global/common/software/nersc/pm-2022.12.0/extra_modulefiles/python/3.9-anaconda-2021.11.lua
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Lmod has detected the following error: Warning: Python module not loaded, you
+already have Python loaded via conda init. 
+While processing the following module(s):
+    Module fullname              Module Filename
+    ---------------              ---------------
+    python/3.9-anaconda-2021.11  /global/common/software/nersc/pm-2022.12.0/extra_modulefiles/python/3.9-anaconda-2021.11.lua
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+[2023-07-19 14:44:21,280 I 785121 785121] global_state_accessor.cc:356: This node has an IP address of 128.55.64.217, but we cannot find a local Raylet with the same address. This can happen when you connect to the Ray cluster with a different IP address or when connecting to a container.
+2023-07-19 14:44:39,483	INFO worker.py:1452 -- Connecting to existing Ray cluster at address: nid001997:6379...
+[2023-07-19 14:44:39,529 I 371998 371998] global_state_accessor.cc:356: This node has an IP address of 128.55.69.69, but we cannot find a local Raylet with the same address. This can happen when you connect to the Ray cluster with a different IP address or when connecting to a container.
+2023-07-19 14:44:39,530	INFO worker.py:1636 -- Connected to Ray cluster.
+2023-07-19 14:45:09,619	WARNING syncer.py:222 -- You are using remote storage, but you don't have `fsspec` installed. This can lead to inefficient syncing behavior. To avoid this, install fsspec with `pip install fsspec`. Depending on your remote storage provider, consider installing the respective fsspec-package (see https://github.com/fsspec).
+2023-07-19 14:45:09,761	INFO tensorboardx.py:178 -- pip install "ray[tune]" to see TensorBoard files.
+2023-07-19 14:45:09,762	WARNING callback.py:144 -- The TensorboardX logger cannot be instantiated because either TensorboardX or one of it's dependencies is not installed. Please make sure you have the latest version of TensorboardX installed: `pip install -U tensorboardx`
+slurmstepd: error: *** STEP 11959724.1 ON nid003764 CANCELLED AT 2023-07-19T21:53:37 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 11959724.0 ON nid001997 CANCELLED AT 2023-07-19T21:53:37 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 11959724 ON nid001997 CANCELLED AT 2023-07-19T21:53:37 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.

@@ -1,0 +1,1760 @@
+IP Head: nid001997:6379
+STARTING HEAD at nid001997
+starting ray head node
+2023-07-19 14:43:49,019	INFO usage_lib.py:408 -- Usage stats collection is enabled by default without user confirmation because this terminal is detected to be non-interactive. To disable this, add `--disable-usage-stats` to the command that starts the cluster, or run the following command: `ray disable-usage-stats` before starting the cluster. See https://docs.ray.io/en/master/cluster/usage-stats.html for more details.
+2023-07-19 14:43:49,019	INFO scripts.py:712 -- Local node IP: nid001997
+2023-07-19 14:43:53,854	SUCC scripts.py:749 -- --------------------
+2023-07-19 14:43:53,854	SUCC scripts.py:750 -- Ray runtime started.
+2023-07-19 14:43:53,854	SUCC scripts.py:751 -- --------------------
+2023-07-19 14:43:53,854	INFO scripts.py:753 -- Next steps
+2023-07-19 14:43:53,854	INFO scripts.py:756 -- To add another node to this Ray cluster, run
+2023-07-19 14:43:53,854	INFO scripts.py:759 --   ray start --address='nid001997:6379'
+2023-07-19 14:43:53,854	INFO scripts.py:768 -- To connect to this Ray cluster:
+2023-07-19 14:43:53,854	INFO scripts.py:770 -- import ray
+2023-07-19 14:43:53,854	INFO scripts.py:771 -- ray.init(_node_ip_address='nid001997')
+2023-07-19 14:43:53,854	INFO scripts.py:802 -- To terminate the Ray runtime, run
+2023-07-19 14:43:53,854	INFO scripts.py:803 --   ray stop
+2023-07-19 14:43:53,855	INFO scripts.py:806 -- To view the status of the cluster, use
+2023-07-19 14:43:53,855	INFO scripts.py:807 --   ray status
+STARTING WORKER 1 at nid003764
+starting ray worker node
+2023-07-19 14:44:21,156	INFO scripts.py:894 -- Local node IP: 128.55.64.217
+2023-07-19 14:44:21,281	SUCC scripts.py:906 -- --------------------
+2023-07-19 14:44:21,281	SUCC scripts.py:907 -- Ray runtime started.
+2023-07-19 14:44:21,281	SUCC scripts.py:908 -- --------------------
+2023-07-19 14:44:21,281	INFO scripts.py:910 -- To terminate the Ray runtime, run
+2023-07-19 14:44:21,281	INFO scripts.py:911 --   ray stop
+== Status ==
+Current time: 2023-07-19 14:45:10 (running for 00:00:00.71)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 128.0/256 CPUs, 4.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (50 PENDING)
++-------------------------+----------+-------+-------------+------------+
+| Trial name              | status   | loc   |          lr |   momentum |
+|-------------------------+----------+-------+-------------+------------|
+| train_mnist_887af_00000 | PENDING  |       | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | PENDING  |       | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | PENDING  |       | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | PENDING  |       | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | PENDING  |       | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | PENDING  |       | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | PENDING  |       | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | PENDING  |       | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |       | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |       | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |       | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |       | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |       | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |       | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |       | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |       | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |       | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |       | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |       | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |       | 0.00113729  |   0.800051 |
++-------------------------+----------+-------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:45:15 (running for 00:00:05.72)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (50 PENDING)
++-------------------------+----------+-------+-------------+------------+
+| Trial name              | status   | loc   |          lr |   momentum |
+|-------------------------+----------+-------+-------------+------------|
+| train_mnist_887af_00000 | PENDING  |       | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | PENDING  |       | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | PENDING  |       | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | PENDING  |       | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | PENDING  |       | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | PENDING  |       | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | PENDING  |       | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | PENDING  |       | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |       | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |       | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |       | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |       | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |       | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |       | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |       | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |       | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |       | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |       | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |       | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |       | 0.00113729  |   0.800051 |
++-------------------------+----------+-------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:45:20 (running for 00:00:10.87)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (50 PENDING)
++-------------------------+----------+-------+-------------+------------+
+| Trial name              | status   | loc   |          lr |   momentum |
+|-------------------------+----------+-------+-------------+------------|
+| train_mnist_887af_00000 | PENDING  |       | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | PENDING  |       | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | PENDING  |       | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | PENDING  |       | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | PENDING  |       | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | PENDING  |       | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | PENDING  |       | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | PENDING  |       | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |       | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |       | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |       | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |       | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |       | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |       | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |       | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |       | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |       | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |       | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |       | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |       | 0.00113729  |   0.800051 |
++-------------------------+----------+-------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:45:25 (running for 00:00:15.89)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (50 PENDING)
++-------------------------+----------+-------+-------------+------------+
+| Trial name              | status   | loc   |          lr |   momentum |
+|-------------------------+----------+-------+-------------+------------|
+| train_mnist_887af_00000 | PENDING  |       | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | PENDING  |       | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | PENDING  |       | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | PENDING  |       | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | PENDING  |       | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | PENDING  |       | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | PENDING  |       | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | PENDING  |       | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |       | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |       | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |       | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |       | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |       | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |       | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |       | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |       | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |       | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |       | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |       | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |       | 0.00113729  |   0.800051 |
++-------------------------+----------+-------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:45:30 (running for 00:00:20.94)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (50 PENDING)
++-------------------------+----------+-------+-------------+------------+
+| Trial name              | status   | loc   |          lr |   momentum |
+|-------------------------+----------+-------+-------------+------------|
+| train_mnist_887af_00000 | PENDING  |       | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | PENDING  |       | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | PENDING  |       | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | PENDING  |       | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | PENDING  |       | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | PENDING  |       | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | PENDING  |       | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | PENDING  |       | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |       | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |       | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |       | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |       | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |       | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |       | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |       | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |       | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |       | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |       | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |       | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |       | 0.00113729  |   0.800051 |
++-------------------------+----------+-------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:45:35 (running for 00:00:25.96)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (50 PENDING)
++-------------------------+----------+-------+-------------+------------+
+| Trial name              | status   | loc   |          lr |   momentum |
+|-------------------------+----------+-------+-------------+------------|
+| train_mnist_887af_00000 | PENDING  |       | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | PENDING  |       | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | PENDING  |       | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | PENDING  |       | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | PENDING  |       | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | PENDING  |       | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | PENDING  |       | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | PENDING  |       | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |       | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |       | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |       | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |       | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |       | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |       | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |       | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |       | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |       | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |       | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |       | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |       | 0.00113729  |   0.800051 |
++-------------------------+----------+-------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:45:40 (running for 00:00:30.98)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:45:45 (running for 00:00:36.00)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:45:50 (running for 00:00:41.05)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:45:55 (running for 00:00:46.07)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:46:00 (running for 00:00:51.13)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:46:05 (running for 00:00:56.15)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:46:10 (running for 00:01:01.20)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:46:15 (running for 00:01:06.22)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:46:21 (running for 00:01:11.27)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:46:26 (running for 00:01:16.29)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:46:31 (running for 00:01:21.35)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:46:36 (running for 00:01:26.36)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:46:41 (running for 00:01:31.42)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:46:46 (running for 00:01:36.43)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:46:51 (running for 00:01:41.48)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:46:56 (running for 00:01:46.50)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:47:01 (running for 00:01:51.55)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:47:06 (running for 00:01:56.57)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:47:11 (running for 00:02:01.62)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:47:16 (running for 00:02:06.64)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:47:21 (running for 00:02:11.68)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:47:26 (running for 00:02:16.70)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:47:31 (running for 00:02:21.76)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:47:36 (running for 00:02:26.78)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:47:41 (running for 00:02:31.82)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:47:46 (running for 00:02:36.84)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:47:51 (running for 00:02:41.89)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:47:56 (running for 00:02:46.91)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:48:01 (running for 00:02:51.97)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:48:06 (running for 00:02:56.99)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:48:11 (running for 00:03:02.05)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:48:16 (running for 00:03:07.07)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:48:21 (running for 00:03:12.11)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:48:26 (running for 00:03:17.13)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:48:31 (running for 00:03:22.18)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:48:36 (running for 00:03:27.20)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:48:42 (running for 00:03:32.25)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:48:47 (running for 00:03:37.27)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:48:52 (running for 00:03:42.32)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:48:57 (running for 00:03:47.34)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:49:02 (running for 00:03:52.41)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:49:07 (running for 00:03:57.43)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:49:12 (running for 00:04:02.48)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:49:17 (running for 00:04:07.49)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+
+== Status ==
+Current time: 2023-07-19 14:49:22 (running for 00:04:12.55)
+Using AsyncHyperBand: num_stopped=0
+Bracket: Iter 64.000: None | Iter 16.000: None | Iter 4.000: None | Iter 1.000: None
+Logical resource usage: 256.0/256 CPUs, 8.0/8 GPUs (0.0/2.0 accelerator_type:A100)
+Result logdir: /global/homes/g/gchen4/ray_results/exp
+Number of trials: 50/50 (42 PENDING, 8 RUNNING)
++-------------------------+----------+----------------------+-------------+------------+
+| Trial name              | status   | loc                  |          lr |   momentum |
+|-------------------------+----------+----------------------+-------------+------------|
+| train_mnist_887af_00000 | RUNNING  | pid=382067           | 0.00496545  |   0.196144 |
+| train_mnist_887af_00001 | RUNNING  | pid=382068           | 0.000279538 |   0.872554 |
+| train_mnist_887af_00002 | RUNNING  | pid=382072           | 0.000856749 |   0.166739 |
+| train_mnist_887af_00003 | RUNNING  | pid=382073           | 0.000432306 |   0.15086  |
+| train_mnist_887af_00004 | RUNNING  | 128.55.64.217:802711 | 0.00282268  |   0.86658  |
+| train_mnist_887af_00005 | RUNNING  | 128.55.64.217:802713 | 0.00940246  |   0.528105 |
+| train_mnist_887af_00006 | RUNNING  | 128.55.64.217:802747 | 0.00178428  |   0.168822 |
+| train_mnist_887af_00007 | RUNNING  | 128.55.64.217:802786 | 0.000172923 |   0.543209 |
+| train_mnist_887af_00008 | PENDING  |                      | 0.00774818  |   0.373108 |
+| train_mnist_887af_00009 | PENDING  |                      | 0.00347916  |   0.665802 |
+| train_mnist_887af_00010 | PENDING  |                      | 0.000191426 |   0.685038 |
+| train_mnist_887af_00011 | PENDING  |                      | 0.00466876  |   0.396746 |
+| train_mnist_887af_00012 | PENDING  |                      | 0.00325587  |   0.224657 |
+| train_mnist_887af_00013 | PENDING  |                      | 0.00086009  |   0.647342 |
+| train_mnist_887af_00014 | PENDING  |                      | 0.00273386  |   0.220871 |
+| train_mnist_887af_00015 | PENDING  |                      | 0.00286416  |   0.130894 |
+| train_mnist_887af_00016 | PENDING  |                      | 0.000277472 |   0.235373 |
+| train_mnist_887af_00017 | PENDING  |                      | 0.000222911 |   0.289792 |
+| train_mnist_887af_00018 | PENDING  |                      | 0.000373059 |   0.580481 |
+| train_mnist_887af_00019 | PENDING  |                      | 0.00113729  |   0.800051 |
++-------------------------+----------+----------------------+-------------+------------+
+... 30 more trials not shown (30 PENDING)
+
+

@@ -3,7 +3,7 @@
 #SBATCH -C gpu
 #SBATCH --time=00:10:00
 #SBATCH -q debug
-#SBATCH -A nstaff
+#SBATCH -A m3562_g
 
 ### This script works for any number of nodes, Ray will find and manage all resources
 #SBATCH --nodes=2
@@ -12,10 +12,15 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --gpus-per-task=4
 #SBATCH --cpus-per-task=128
+#SBATCH -o output_log_%j.txt
+#SBATCH -e error_log_%j.txt
+#SBATCH --mail-type=begin,end,fail
+#SBATCH --mail-user=gchen4@lbl.gov
 
 
 # Load modules or your own conda environment here
-module load pytorch/1.10.0
+module load python
+conda activate VAE_MNIST
 
 redis_password=$(uuidgen)
 export redis_password
